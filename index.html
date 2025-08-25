@@ -8,6 +8,28 @@
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
+<nav>
+  <div class="navbar bg-base-100 shadow-sm">
+  <div class="flex-1">
+    <a class="btn btn-ghost text-xl">daisyUI</a>
+  </div>
+  <div class="flex-none">
+    <ul class="menu menu-horizontal px-1">
+      <li><a>Link</a></li>
+      <li>
+        <details>
+          <summary>Parent</summary>
+          <ul class="bg-base-100 rounded-t-none p-2">
+            <li><a>Link 1</a></li>
+            <li><a>Link 2</a></li>
+          </ul>
+        </details>
+      </li>
+    </ul>
+  </div>
+</div>
+</nav>
+
     <section class="grid grid-cols-12 w-11/12 mx-auto gap-10">
         <div class=" col-span-9 ">
          <h1>Kitchenware</h1>
@@ -90,6 +112,7 @@
 
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sapiente dolore magni nobis repellendus molestias consectetur voluptas quia in alias, error fuga beatae dignissimos eos ratione quas, dolores culpa ea.
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, consectetur sit sequi, soluta hic officiis incidunt accusantium delectus voluptatum saepe aperiam enim quasi voluptatem maxime dolor consequatur dignissimos aspernatur ab?
+
     </div>
 </body>
 </html>
